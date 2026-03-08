@@ -1,0 +1,173 @@
+\documentclass[12 pt,a4paper,ragged2e]{altacv}
+% \usepackage[utf8]{vietnam}
+% \usepackage{fontspec}
+% \setmainfont{Calibri}
+\usepackage[fontsize=11.5pt]{scrextend}
+% Cấu hình lề trang
+\geometry{left=1.25cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+\sloppy
+\usepackage[hidelinks]{hyperref}
+
+\ifxetexorluatex
+  \setmainfont{Carlito}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Cấu hình màu sắc (Trắng đen chuyên nghiệp)
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{37474F}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{black}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{PHUNG MINH PHUC}
+\tagline{Sophomore IT Student @ HUST}
+
+\personalinfo{%
+  \email{phungminhphuc28092006@gmail.com}
+  \phone{(+84) 0373127496}
+  \location{Hanoi, Vietnam}
+  \linkedin{linkedin.com/in/phungminhphuc2k6}
+  \github{github.com/PhungMinhPhuc}
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+%% SIDEBAR (Nằm trong file page1sidebar.tex)
+
+\begin{fullwidth}
+  \cvsection{Objective}
+  \begin{quote}
+    \normalsize{"Sophomore IT student at HUST with strong interests in Algorithms, Discrete Mathematics, and Optimization. Seeking to join MSO Lab as a student member to explore professional research methodologies and further develop algorithmic problem-solving skills through the Lab's projects."}
+  \end{quote}
+\end{fullwidth}
+
+\cvsection[page1sidebar]{Education}
+\cvevent{}{Cau Xe High School}{Sep 2022 -- June 2024}{Hai Phong, Vietnam}
+\begin{itemize}
+  \item First Prize 
+\end{itemize}
+
+
+\cvevent{}{Hanoi University of Science and Technology (HUST)}{Sep 2024 -- Present}{Hanoi, Vietnam}
+\begin{itemize}
+\item Program: Vietnam-Japan Information Technology (HEDSPI).
+\item \textbf{Current GPA: 3.7 / 4.0}
+\item Relevant Coursework: Data Structures \& Algorithms, Discrete Mathematics,
+Linear Algebra, Calculus, Probability and Statistics, C Programming.
+\end{itemize}
+
+\divider
+
+
+\cvsection{Academic Projects}
+
+
+\cvevent{Algorithmic Foundations \& Complexity Analysis}{Self-study \& Coursework}{2025}{HUST}
+\begin{itemize}
+  \item Re-implemented core data structures (Binary Trees, Graphs) and algorithms (Shortest Path, Dynamic Programming) from scratch in C Language to master logic and implementation details.
+  \item Benchmarked algorithm performance across different scenarios to analyze \textbf{time-space complexity} and practical trade-offs.
+  \item Explored basic \textbf{Heuristic methods} as an alternative to exact algorithms for large-scale problem sets.
+  \item Algorithm Implementations and Experiments: \href{https://github.com/PhungMinhPhuc/AlgoLab-Graph-Optimization}{GitHub}
+\end{itemize}
+
+\divider
+
+\cvevent{Student Management System}{Course: Programming Techniques}{2024}{HUST}
+\begin{itemize}
+\item Developed a data management application using C Language.
+\item Implemented Linked Lists and File I/O for data persistence.
+\item Focused on memory management (pointers) and logical error handling.
+\end{itemize}
+
+
+
+% \newpage
+
+% \name{PHÙNG MINH PHÚC}
+% \tagline{Sinh viên IT năm 2 @ HUST | AI Intern Candidate}
+
+% \personalinfo{%
+%   \email{phungminhphuc28092006@gmail.com}
+%   \phone{(+84) 0373127496}
+%   \location{Hanoi, Vietnam}
+%   \linkedin{linkedin.com/in/phungminhphuc2k6}
+%   \github{github.com/PhungMinhPhuc}
+% }
+
+% \begin{fullwidth}
+% \makecvheader
+% \end{fullwidth}
+
+% \AtBeginEnvironment{itemize}{\small}
+
+% %% SIDEBAR (Nằm trong file page1sidebar.tex)
+
+% \cvsection{MỤC TIÊU NGHỀ NGHIỆP}
+% \begin{quote}
+%   \normalsize{"A dedicated 2nd-year IT student with a strong logical foundation and a \textbf{(GPA 3.61)}. Currently seeking an \textbf{AI Intern} position at FPT to apply mathematical background and C/C++ skills into real-world AI projects while fast-tracking Python and SQL proficiency."}
+% \end{quote}
+
+% \cvsection[page2sidebar]{HỌC VẤN}
+% \cvevent{}{Đại học Bách Khoa Hà Nội (HUST)}{Tháng 9/2024 -- Hiện tại}{Hà Nội, Việt Nam}
+% \begin{itemize}
+% \item Chương trình: Công nghệ thông tin Việt Nhật (HEDSPI).
+% \item \textbf{GPA hiện tại: 3.61 / 4.0}
+% \item Relevant Coursework: Calculus, Linear Algebra, C Programming, Data Structures and Algorithms (DSA).
+% \end{itemize}
+
+% \divider
+
+
+% \cvsection{Academic Projects}
+
+
+% \cvevent{Algorithm Implementation}{Self-study \& Coursework}{2025}{HUST}
+% \begin{itemize}
+%   \item Implemented various sorting and searching algorithms to understand time/space complexity.
+%   \item Solved basic algorithmic problems to strengthen problem-solving skills.
+%   \item Starting a roadmap on LeetCode to enhance coding proficiency.
+% \end{itemize}
+
+% \divider
+
+% \cvevent{Student Management System}{Course: Programming Techniques}{2024}{HUST}
+% \begin{itemize}
+% \item Developed a data management application using C Language.
+% \item Implemented Linked Lists and File I/O for data persistence.
+% \item Focused on memory management (pointers) and logical error handling.
+% \end{itemize}
+
+% \cvsection{Strengths}
+
+% \smallskip
+% \begin{itemize}
+% \item \textbf{High Adaptability:} Ability to learn new technologies (Python/SQL) rapidly.
+% \item \textbf{Mathematical Foundation:} Strong grades in Calculus and Linear Algebra, essential for AI/Machine Learning.
+% \item \textbf{Discipline:} Committed to maintaining high academic standards and project deadlines.
+% \end{itemize}
+
+
+% \divider
+
+% \cvevent{Low-level Data Management System}{Course: Programming Techniques}{2024}{HUST}
+% \begin{itemize}
+%   \item Developed a CLI application in C using \textbf{Linked Lists} and \textbf{Pointer Arithmetic} for dynamic memory handling.
+%   \item Practiced \textbf{Manual Memory Management} (malloc/free) to optimize resource usage and prevent memory leaks in long-running processes.
+%   \item Implemented structured \textbf{File Persistence} to manage data records, focusing on efficient data retrieval and serialization.
+% \end{itemize}
+
+\end{document}
